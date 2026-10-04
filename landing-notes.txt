@@ -1,0 +1,3 @@
+1. Keuntungan memisahkan header dan footer menjadi file component tersendiri adalah membuat kode lebih rapi, terstruktur (prinsip modularisasi), dan menghindari duplikasi kode. Jika ada perubahan pada bagian navigasi atau footer, kita cukup mengubah satu file component saja tanpa harus mengedit ulang di setiap halaman.
+
+2. Bagian pada halaman-halaman admin (Buku, Kategori, Penulis, Pengguna, Profil) yang mengalami masalah duplikasi yang sama adalah elemen markup <aside> (sidebar) dan <header> (topbar), karena sebelumnya disalin-tempel secara identik di setiap file halaman sebelum akhirnya dipisah menjadi component admin.
