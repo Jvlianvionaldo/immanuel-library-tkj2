@@ -11,10 +11,9 @@
   $category = ["id" => 1, "name" => "Fiksi", "description" => "Novel dan cerita rekaan", "total_books" => 3];
   ?>
   <div class="app-shell">
-  <?php require_once __DIR__ ."/components/admin/sidebar.php"?> 
-
+  <?php require_once __DIR__ . "/../../components/admin/sidebar.php" ?>
     <main class="app-main">
-    <?php require_once __DIR__ ."/components/admin/topbar.php"?>
+    <?php require_once __DIR__ . "/../../components/admin/topbar.php" ?>
 
       <div class="app-content">
         <div class="toolbar">
